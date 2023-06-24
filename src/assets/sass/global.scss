@@ -1,3 +1,25 @@
 @import "./abstracts/utilities";
 @import "./abstracts/variables";
 @import "./base/reset";
+
+body {
+    background-color: $charcoal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    @include max($mobileSize) {
+        &:not(:has([data-success="true"])) {
+            height: unset;
+        }
+    }
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
