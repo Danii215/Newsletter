@@ -173,7 +173,7 @@
 
                 &[data-error-state] {
                     background-color: #ffe7e8;
-                    color: $tomato;
+                    color: $tomato !important;
                     border: solid 0.1rem $tomato;
                 }
             }
