@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the image](./design/newsletter.png)
+![Screenshot of the image](./src/assets/img/screenshot.png)
 
 ## My process
 
