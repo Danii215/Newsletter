@@ -38,7 +38,6 @@
         }
 
         @include max($mobileSize) {
-            border-radius: 0;
             gap: 15rem;
             width: unset;
 
@@ -54,7 +53,7 @@
         width: 100%;
         height: 100%;
         justify-content: flex-end;
-        border-radius: 0 0 2rem 2rem;
+        border-radius: 0;
     }
 
     &__image {
